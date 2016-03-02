@@ -1,0 +1,121 @@
+{% extends "base.html" %}
+
+
+{% block styles %}
+    {{ super() }}
+    <link href='../static/css/index.css' rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="introduction">
+            <h1>Send Zhihu to Your Kindle</h1>
+            <p class="lead">将指定用户的全部答案和评论生成带有章节和目录的电子书.<br>
+                下载mobi或推送到您的Kindle上.</p>
+        </div>
+    </div><!-- /.container -->
+
+    <form method="post" class="form-horizontal" id="mainForm">
+        <div class="container">
+            {#            {{ wtf.quick_form(form,extra_classes='form-inline') }}#}
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.address.label(class_="col-sm-2 control-label") }}
+                <div class="col-sm-8">
+                    {{ form.address(class_='form-control',placeholder="https://www.zhihu.com/people/ji-xuan-yi-9") }}
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    {% for subfield in form.need_comments_or_not %}
+                        <div class="radio">
+                            <label>
+                                {{ subfield }}
+                                {{ subfield.label }}
+                            </label>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    {#                    {{ form.submit(class_='btn btn-primary') }}#}
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#downloadModal">
+                        下载Mobi
+                    </button>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#sendModal">
+                        推送到Kindle(推荐)
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">下载Mobi</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-warning" role="alert">抓取内容和处理评论的时间可能较长，推荐使用『推送到Kindle』功能，避免长时间网页无响应。
+                        </div>
+                        {#                    <form method="post" class="form-horizontal" id="downloadForm">#}
+                        {#                        {{ form.hidden_tag() }}#}
+                        <div class="form-group">
+                            {{ form.captcha.label(class_="col-sm-2 control-label") }}
+                            <div class="col-sm-2">
+                                {{ form.captcha(class_='form-control') }}
+                            </div>
+                            <img src="../static/pictures/captcha.gif" class="img-responsive col-sm-2">
+                        </div>
+                    </div>
+                    {#                </form>#}
+                    <div class="modal-footer">
+                        {{ form.submit_download(class_="btn btn-primary") }}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sendModal" tabindex="-1" role="dialog" aria-labelledby="sendModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">推送到Kindle</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-info" role="alert">您需要在<a
+                                href="https://www.amazon.cn/gp/digital/fiona/manage" class="alert-link" target="_blank">
+                            这里 </a>将 zhihu2kindle@outlook.com 加入已认可的发件人电子邮箱列表
+                        </div>
+                        {#                    <form method="post" class="form-horizontal" id="sendForm">#}
+                        {#                        {{ form.hidden_tag() }}#}
+                        <div class="form-group">
+                            {{ form.email.label(class_="col-sm-2 control-label") }}
+                            <div class="col-sm-8">
+                                {{ form.email(class_='form-control',placeholder="example@kindle.cn") }}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            {{ form.captcha_1.label(class_="col-sm-2 control-label") }}
+                            <div class="col-sm-2">
+                                {{ form.captcha_1(class_='form-control') }}
+                            </div>
+                            <img src="../static/pictures/captcha.gif" class="img-responsive col-sm-2">
+                        </div>
+                        {#                    </form>#}
+                    </div>
+                    <div class="modal-footer">
+                        {{ form.submit_send(class_="btn btn-success") }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+{% endblock %}

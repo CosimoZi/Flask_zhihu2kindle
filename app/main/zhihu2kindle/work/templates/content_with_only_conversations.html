@@ -1,0 +1,31 @@
+{% extends "content_module.html" %}
+{% block comments %}
+
+
+        <hr/>
+        <hr style="border-style: dotted"/>
+    {% if 'Author_' in conversations[i] %}
+         {% for comment in conversations[i]['Author_'] %}
+             <b>{{ comment[1] }}:</b>
+             {{ comment[2] }}
+             <br/><br/>
+         {% endfor %}
+            <hr style="border-style: dotted"/>
+    {% endif %}
+    {% for name,comments in conversations[i].items() %}
+        {% if name!='Author_' %}
+            {% for comment in comments %}
+             <b>{{ comment[1] }}:</b>
+             {{ comment[2] }}
+             <br/><br/>
+            {% endfor %}
+            <hr style="border-style: dotted"/>
+        {% endif %}
+    {% endfor %}
+
+
+{#converations[i]={'name':[[date,authorname,content]]}#}
+
+        <hr/>
+
+{% endblock %}

@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+        "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <docTitle>
+        <text>目录</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navpoint-1" playOrder="1">
+            <navLabel>
+                <text>目录</text>
+            </navLabel>
+            <content src="toc.html#toc"/>
+        </navPoint>
+        
+            <navPoint id="navpoint-2" playOrder="2">
+                <navLabel>
+                    <text>如何看待中学的图书馆？</text>
+                </navLabel>
+                <content src="content.html#ch0"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-3" playOrder="3">
+                <navLabel>
+                    <text>如何解读《不能承受的生命之轻》真正的内涵？</text>
+                </navLabel>
+                <content src="content.html#ch1"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-4" playOrder="4">
+                <navLabel>
+                    <text>如何评价 RPG 游戏《永恒之柱》（Pillars of Eternity）？</text>
+                </navLabel>
+                <content src="content.html#ch2"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-5" playOrder="5">
+                <navLabel>
+                    <text>怎么看李云迪在韩国巡演中，记忆错乱被迫中断演奏？</text>
+                </navLabel>
+                <content src="content.html#ch3"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-6" playOrder="6">
+                <navLabel>
+                    <text>最好的肖邦钢琴曲演奏者是Artur Rubinstein吗？</text>
+                </navLabel>
+                <content src="content.html#ch4"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-7" playOrder="7">
+                <navLabel>
+                    <text>和《哈利波特》原著对比起来，哈利波特系列电影是不是很失败的电影？</text>
+                </navLabel>
+                <content src="content.html#ch5"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-8" playOrder="8">
+                <navLabel>
+                    <text>对于动画的不合逻辑的情况，是否应该较真？</text>
+                </navLabel>
+                <content src="content.html#ch6"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-9" playOrder="9">
+                <navLabel>
+                    <text>2015七月新番是不是整体质量变差了？</text>
+                </navLabel>
+                <content src="content.html#ch7"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-10" playOrder="10">
+                <navLabel>
+                    <text>享受《当人类的群星闪耀时》这类书是种怎么样的感觉？</text>
+                </navLabel>
+                <content src="content.html#ch8"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-11" playOrder="11">
+                <navLabel>
+                    <text>有哪些影视剧高于原著，比原著更值得看？</text>
+                </navLabel>
+                <content src="content.html#ch9"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-12" playOrder="12">
+                <navLabel>
+                    <text>为什么某些音响发烧友花费重金购买了播放设备，却不愿花钱购买正版音乐？</text>
+                </navLabel>
+                <content src="content.html#ch10"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-13" playOrder="13">
+                <navLabel>
+                    <text>十岁的小朋友读金庸小说，第一本应该推荐哪本？</text>
+                </navLabel>
+                <content src="content.html#ch11"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-14" playOrder="14">
+                <navLabel>
+                    <text>双系统在windows10下如何读取HFS/OSX分区？</text>
+                </navLabel>
+                <content src="content.html#ch12"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-15" playOrder="15">
+                <navLabel>
+                    <text>红轴的机械键盘有什么推荐的？</text>
+                </navLabel>
+                <content src="content.html#ch13"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-16" playOrder="16">
+                <navLabel>
+                    <text>如何评价毛姆的作品《刀锋》与毛姆本人？</text>
+                </navLabel>
+                <content src="content.html#ch14"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-17" playOrder="17">
+                <navLabel>
+                    <text>美国会有像小时代这种烂片会有票房吗？如果没有，为什么美国的观众能做到市场的优胜略汰？</text>
+                </navLabel>
+                <content src="content.html#ch15"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-18" playOrder="18">
+                <navLabel>
+                    <text>《魔戒》与《冰与火之歌》两部小说从长远看，哪一部历史地位会更高？理由是什么？</text>
+                </navLabel>
+                <content src="content.html#ch16"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-19" playOrder="19">
+                <navLabel>
+                    <text>随着同性婚姻在美国全面合法，一妻多夫和一夫多妻未来有可能在美国全面合法吗？</text>
+                </navLabel>
+                <content src="content.html#ch17"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-20" playOrder="20">
+                <navLabel>
+                    <text>艺术作品的解读权是作者的还是观众的？为什么？</text>
+                </navLabel>
+                <content src="content.html#ch18"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-21" playOrder="21">
+                <navLabel>
+                    <text>乌青是不是对艺术、对诗、对美的亵渎？</text>
+                </navLabel>
+                <content src="content.html#ch19"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-22" playOrder="22">
+                <navLabel>
+                    <text>如何评价小说《历史的尘埃》（又名《死灵法师的仆人》）？</text>
+                </navLabel>
+                <content src="content.html#ch20"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-23" playOrder="23">
+                <navLabel>
+                    <text>政治、历史题材的日本动画是否很「虚」不够大气写实？</text>
+                </navLabel>
+                <content src="content.html#ch21"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-24" playOrder="24">
+                <navLabel>
+                    <text>狄更斯在文学史上地位如何？为什么他在知乎上如此冷门？</text>
+                </navLabel>
+                <content src="content.html#ch22"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-25" playOrder="25">
+                <navLabel>
+                    <text>为什么有些人会坚称「XX 应该 / 不应该是怎样的」，虽然给不出丝毫理由？</text>
+                </navLabel>
+                <content src="content.html#ch23"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-26" playOrder="26">
+                <navLabel>
+                    <text>什么是「装逼」？</text>
+                </navLabel>
+                <content src="content.html#ch24"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-27" playOrder="27">
+                <navLabel>
+                    <text>如何评价「舰娘是在美化军国主义」的观点？</text>
+                </navLabel>
+                <content src="content.html#ch25"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-28" playOrder="28">
+                <navLabel>
+                    <text>如何评价雾霾调查《穹顶之下》？</text>
+                </navLabel>
+                <content src="content.html#ch26"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-29" playOrder="29">
+                <navLabel>
+                    <text>Kitsch 是什么意思，有哪些内涵？哪些东西是 Kitsch 的外延？</text>
+                </navLabel>
+                <content src="content.html#ch27"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-30" playOrder="30">
+                <navLabel>
+                    <text>哪些 ACG 作品中出现了你心目中的理想女性？</text>
+                </navLabel>
+                <content src="content.html#ch28"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-31" playOrder="31">
+                <navLabel>
+                    <text>传统工科行业的工程师是否已经沦为新时代的农民工，被金融和 IT 行业完爆？</text>
+                </navLabel>
+                <content src="content.html#ch29"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-32" playOrder="32">
+                <navLabel>
+                    <text>人们总说中国的应试教育阻碍了中国人的创造力，但日本同样是应试教育，为什么日本的科研水平那么发达？</text>
+                </navLabel>
+                <content src="content.html#ch30"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-33" playOrder="33">
+                <navLabel>
+                    <text>喜欢平胸妹子的男生会不会其实是喜欢男生的，潜在的gay？</text>
+                </navLabel>
+                <content src="content.html#ch31"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-34" playOrder="34">
+                <navLabel>
+                    <text>为什么木心说群众没有观点？</text>
+                </navLabel>
+                <content src="content.html#ch32"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-35" playOrder="35">
+                <navLabel>
+                    <text>卡尔维诺说：“所谓经典，就是人人都在说的著作，却从没看过的著作。”所谓“经典”本身是否存在？是否“经典”就是最值得阅读的那类图书？</text>
+                </navLabel>
+                <content src="content.html#ch33"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-36" playOrder="36">
+                <navLabel>
+                    <text>「历史辉煌的意大利在今天的经济和政治方面上却处于二流」这个说法合理吗，为什么？</text>
+                </navLabel>
+                <content src="content.html#ch34"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-37" playOrder="37">
+                <navLabel>
+                    <text>什么耳机适合听Classical，Jazz&Blues？在参数上哪方面有什么特别的要求？</text>
+                </navLabel>
+                <content src="content.html#ch35"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-38" playOrder="38">
+                <navLabel>
+                    <text>卡夫卡的小说《审判》中，最后 K 与教士的对话中讲了一个法律之门的故事，这个故事到底有什么含义呢？守门人又代表着什么？</text>
+                </navLabel>
+                <content src="content.html#ch36"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-39" playOrder="39">
+                <navLabel>
+                    <text>海菲茨拉琴时，持弓的手肘特别高，与通常的小提琴演奏法大相径庭，这样拉有什么好处？</text>
+                </navLabel>
+                <content src="content.html#ch37"/>
+            </navPoint>
+        
+            <navPoint id="navpoint-40" playOrder="40">
+                <navLabel>
+                    <text>有什么适合睡前听的古典音乐？</text>
+                </navLabel>
+                <content src="content.html#ch38"/>
+            </navPoint>
+        
+    </navMap>
+</ncx>

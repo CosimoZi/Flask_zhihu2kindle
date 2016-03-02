@@ -1,0 +1,32 @@
+{% extends "content_module.html" %}
+{% block comments %}
+
+
+        <hr/>
+    {% for comments_of_one_page in comments[i] %}
+            {% for comment in comments_of_one_page['data'] %}
+                <div class="comment">
+                <span>
+                    <b>{{ comment['author']['name'] }}</b>
+                    {% if comment['author']['meta']['isAnswerAuthor'] %}
+                        (作者)
+                    {% endif %}
+                    {% if comment['author']['meta']['isQuestionCreator'] %}
+                        (提问者)
+                    {% endif %}
+                    {% if comment['inReplyToUser'] %}
+                        回复
+                        <b>{{ comment['inReplyToUser']['name'] }}</b>
+                    {% endif %}
+                    :
+                </span>
+                <span class="comment_content">
+                    {{ comment['content'] }}
+                </span>
+                </div>
+                <br/>
+            {% endfor %}
+        {% endfor %}
+        <hr/>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN"
+        "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <docTitle>
+        <text>目录</text>
+    </docTitle>
+    <navMap>
+        <navPoint id="navpoint-1" playOrder="1">
+            <navLabel>
+                <text>目录</text>
+            </navLabel>
+            <content src="toc.html#toc"/>
+        </navPoint>
+        {% for i in range(amount) %}
+            <navPoint id="navpoint-{{ i+2 }}" playOrder="{{ i+2 }}">
+                <navLabel>
+                    <text>{{ questions[i]}}</text>
+                </navLabel>
+                <content src="content.html#ch{{ i }}"/>
+            </navPoint>
+        {% endfor %}
+    </navMap>
+</ncx>
